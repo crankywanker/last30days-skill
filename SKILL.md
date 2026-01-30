@@ -109,6 +109,11 @@ The script output will indicate the mode:
 
 For **ALL modes**, do WebSearch to supplement (or provide all data in web-only mode).
 
+**IMPORTANT: Show progress to the user.** Before each WebSearch, output a brief status line so the user knows you're still working:
+```
+🌐 Searching: [query]...
+```
+
 Choose search queries based on QUERY_TYPE:
 
 **If RECOMMENDATIONS** ("best X", "top X", "what X should I use"):
